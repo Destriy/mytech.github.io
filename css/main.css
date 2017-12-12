@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body{
+
+	font-family: "Lato"
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+font-smoothing: antialiased;
+overflow-scrolling: touch;
+margin-top: 70px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: "Raleway";
+font-weight: 300;
+color: #333;
+}
+p {
+	line-height: 28px;
+	margin-bottom:25px;
+}
+.centered{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+#k a{
+
+}
+a{
+	color: #f85c37;
+}
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline:0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+.navbar{
+	font-weight: 800;
+	font-size: 14px;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+.navbar-inverse{
+background: #2d2d2d;
+border-color: #2d2d2d;
+}
+.navbar-inverse .navbar-nav > active > a{
+	background-color: #ff7878;
+}
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+#headerwrap{
+
+	margin-top: -10px;
+	padding-top: 20px;
+	background-attachment: relative;
+	background-position: : center center;
+	min-height: 640px;
+	width: 100%;
+
+	background-size: cover;
+
+}
+#headerwrap h1{
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+
+}
+
+#headerwrap h2{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 3px;
+
+}
+#header1{
+
+	margin-top: -10px;
+	padding-top: 20px;
+	background-attachment: relative;
+	background-position: : center center;
+	min-height: 500px;
+	width: 100%;
+
+	background-size: cover;
+
+}
+#header1 h1{
+	margin-top: 100px;
+	color: #4f4f4f;
+	font-size: 60px;
+	font-weight: 300;
+	letter-spacing: 3px;
+
+}
+
+#header1 h2{
+	color: #4f4f4f;
+	font-size: 40px;
+	letter-spacing: 3px;
+
+}
+.w
+{
+	padding-top: 35px;
+
+}
+.w h4 {
+	font-size: 25px;
+}
+#dg {
+	background: #63b8ff
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+#dg h4{
+	font-size: 35px;
+}
+.tilt{
+	transition: all 0.5s ease;
+}
+.tilt:hover{
+	transform: rotate(-10deg);
+}
+#f{
+	background: #2d2d2d
+	padding-top:30px;
+	padding-bottom: : 20px;
+
+}
+#f i{
+	color: #bdbdbd;
+	font-size: 25px;
+	padding: 20px;
+}
+#f i:hover{
+	color: #787878;
+}
+#fi{
+	background: #2d2d2d
+	padding-top:0px;
+	padding-bottom: : 0px;
+
+}
+#fi i{
+	color: #bdbdbd;
+	font-size: 25px;
+	padding: 20px;
+}
+#fi i:hover{
+	color: #787878;
+}
+#name, #email, #password{
+	border-radius: 50px;
+	border: 1px solid black;
+	margin-top: 15px;
+	padding: 15px;
+	width: 222px;
+}
+#message{
+	border-radius: 50px;
+	border: 1px solid black;
+	margin-top: 15px;
+	width: 230px;
+	max-width: 300px;
+	max-height: 250px;
+}
+.contact-details {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-details li {
+  padding: 0;
+  margin: 0 0 30px 0;
+  list-style: none;
+}
+
+.contact-details li > span {
+  display: block;
+  color: rgba(0, 0, 0, 0.3);
+}
+article {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    margin-bottom: 40px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.nowosti  .thumbnail-container:hover
+{
+	background-position: 105% 105%;}
+	.nowosti article .thumbnail-container
+	{
+	    display: block;
+	    width: 500px;
+	    height: 300px;
+	    max-width: 100%;
+	    background-position: center center;
+	    background-size: cover;
+		transition:1s;
+	}
+	.osnowa{
+		background-position:50% 100%;
+		background-attachment:fixed;
+		background-repeat:repeat-x;
+		padding-bottom:20px;
+	}
